@@ -1,0 +1,14 @@
+#cardPagamento {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+div input,
+div label {
+    display: block;
+    width: 100%;
+}
+
+#btnFinalizar {
+    margin-top: 10px;
+}
