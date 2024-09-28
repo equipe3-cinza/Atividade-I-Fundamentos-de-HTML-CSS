@@ -1,0 +1,120 @@
+:root {
+	--color-white: #ffffff;
+	--color-light: #f1f5f9;
+	--color-black: #121212;
+	--color-night: #001632;
+
+	--color-red: #f44336;
+	--color-blue: #1a73e8;
+	--color-gray: #80868b;
+	--color-grayish: #dadce0;
+
+	--shadow-normal: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+		0 1px 2px 0 rgba(0, 0, 0, 0.06);
+	--shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+		0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	--shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+		0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.ion-logo-google {
+	font-size: 1.65rem;
+	margin-right: 0.5rem;
+	color: var(--color-red);
+}
+
+.text-large {
+	font-size: 2rem;
+	font-weight: 600;
+	color: var(--color-black);
+}
+
+.text-normal {
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--color-black);
+}
+
+.text-links {
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--color-blue);
+}
+
+.text-links:hover {
+	text-decoration: underline;
+}
+
+.striped-line {
+	flex: auto;
+	height: 2px;
+	background: var(--color-grayish);
+}
+
+.striped-text {
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--color-black);
+	margin: 0 1rem;
+}
+
+.main .wrapper {
+	max-width: 28rem;
+	width: 100%;
+	margin: 2rem auto;
+    margin-top: 10%;
+	padding: 2rem 2.5rem;
+	border-radius: 0.25rem;
+	color: var(--color-black);
+	background: var(--color-white);
+	box-shadow: var(--shadow-large);
+}
+
+.form {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.form-group {
+	margin-bottom: 1.25rem;
+}
+
+.form-control {
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 400;
+	padding: 0.75rem 1.25rem;
+	border-radius: 2rem;
+	border: 1px solid var(--color-grayish);
+	background: var(--color-light);
+	color: var(--color-black);
+}
+
+.btn-primary {
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 500;
+	padding: 0.65rem 1.25rem;
+	border-radius: 2rem;
+	color: var(--color-white);
+	background: var(--color-blue);
+	box-shadow: var(--shadow-medium);
+	text-transform: capitalize;
+}
+
+.btn-outline-secondary {
+	font-family: inherit;
+	font-size: 0.95rem;
+	font-weight: 500;
+	padding: 0.35rem 1.25rem;
+	border-radius: 2rem;
+	color: var(--color-black);
+	background: var(--color-white);
+	border: 2px solid var(--color-grayish);
+	transition: all 0.35s ease;
+}
+
+.btn-outline-secondary:hover {
+	background: var(--color-light);
+}
