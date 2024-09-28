@@ -7,9 +7,9 @@ function loadPage(route) {
     fetch(page)
         .then(response => response.text())
         .then(data => {
-            document.getElementById('template-container').innerHTML = data;
             removeOldCSS();
             loadCSS(cssFile);
+            document.getElementById('template-container').innerHTML = data;
             history.pushState({ route }, '', `#/${route}`);
         })
         .catch(error => console.error('Erro ao carregar a página:', error));
