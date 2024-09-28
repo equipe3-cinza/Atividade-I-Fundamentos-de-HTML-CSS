@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="pagamento.css">
+</head>
+
+<body>
+    <div class="conteudo-pagamento">
+        <h2>Pagamento </h2>
+        <form id="form-pagamento">
+            <label for="bandeira">Bandeira do Cartão</label>
+            <select id="bandeira" required>
+                <option value="">Selecione a bandeira</option>
+                <option value="American Express">American Express</option>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+            </select>
+
+            <label for="numeroCartao">Número do Cartão</label>
+            <input type="text" id="numeroCartao" maxlength="16" placeholder="Digite o número do cartão" required>
+
+            <label for="dataExpiracao">Data de Expiração</label>
+            <input type="month" id="dataExpiracao" required>
+
+            <label for="codigoSeguranca">Código de Segurança</label>
+            <input type="number" id="codigoSeguranca" max="999" placeholder="Código de Segurança" required>
+            <button type="submit" style="margin-top: 10px;" href="#/compras">Finalizar</button>
+        </form>
+    </div>
+</body>
+
+</html>

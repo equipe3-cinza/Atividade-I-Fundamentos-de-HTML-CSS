@@ -1,0 +1,16 @@
+.conteudo-pagamento {
+    margin: 25px;
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+div input,
+div label {
+    display: block;
+}
