@@ -1,0 +1,65 @@
+.card {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.card-img-top {
+    height: 375px;
+    object-fit: cover;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.badge-primary {
+    background-color: #a5a5a5;
+}
+
+.badge-warning {
+    background-color: #838383;
+}
+
+.badge-success {
+    background-color: #1a7930;
+}
+
+.price-badge {
+    position: absolute;
+    bottom: 194px;
+    right: 10px;
+    font-size: 13px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.card-text .margin-text{
+  margin-bottom: 0px !important;
+}
+
+.btn-final-compras{
+    position: relative;
+    z-index: 2;
+}
