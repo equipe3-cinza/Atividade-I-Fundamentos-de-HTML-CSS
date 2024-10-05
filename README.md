@@ -1,5 +1,14 @@
 # Projeto E-commerce
 
+##Alunos
+
+Alan Brilhante Coutinho
+Arthur Vieira Guimarães
+Caio Alexandre Oliveira Alves
+Fabricio da Silva Pires
+Lucas Araujo Ribeiro
+Wilglison Rilniky Oliveira dos Santos
+
 Este é um projeto web de um sistema de e-commerce desenvolvido utilizando HTML e CSS puros. O projeto contém páginas de login, cadastro de usuário, listagem de produtos e pagamento.
 
 ## Iniciando o Projeto
